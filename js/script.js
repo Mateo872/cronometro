@@ -61,8 +61,6 @@ function timerStop() {
   btnPause.className = "btn btn-secondary";
   btnPause.disabled = true;
 
-  btnReset.addEventListener("click", timerReset);
-
   btnReset.className = "btn btn-success";
   btnReset.disabled = false;
 }
